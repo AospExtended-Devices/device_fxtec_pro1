@@ -25,8 +25,6 @@ import android.support.v14.preference.PreferenceFragment;
 import android.util.Log;
 import android.view.MenuItem;
 
-import org.lineageos.internal.util.FileUtils;
-
 import org.lineageos.settings.device.R;
 import org.lineageos.settings.device.widget.SeekBarPreference;
 

@@ -21,10 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from pro1 device
 $(call inherit-product, device/fxtec/pro1/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 2140
+EXTENDED_BUILD_TYPE := OFFICIAL
+# XXX: TARGET_INCLUDE_STOCK_ARCORE?
+# XXX: TARGET_USE_JELLY?
 
-PRODUCT_NAME := lineage_pro1
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Tom Marshall"
+
+PRODUCT_NAME := aosp_pro1
 PRODUCT_DEVICE := pro1
 PRODUCT_MANUFACTURER := Fxtec
 PRODUCT_BRAND := Fxtec

@@ -31,8 +31,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-import org.lineageos.internal.util.FileUtils;
-
 import org.lineageos.settings.device.R;
 
 public class KeyboardSettingsFragment extends PreferenceFragment

@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "remote": "los"
+  },
+  {
+    "repository": "android_kernel_fxtec_msm8998",
+    "target_path": "kernel/fxtec/msm8998"
+    "remote": "los"
+  }
+  {
+    "repository": "vendor_fxtec",
+    "target_path": "vendor/fxtec"
+    "remote": "aex-devices"
+  }
+]
